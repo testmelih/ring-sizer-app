@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ring Sizer</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <h1>Ring Sizer</h1>
+      <div class="input-container">
+        <label for="us-dropdown">US Ring Size:</label>
+        <select id="us-dropdown" onchange="updateRingSize()">
+        </select>
+      </div>
+      <div class="input-container">
+        <label for="uk-dropdown">UK Ring Size:</label>
+        <select id="uk-dropdown" onchange="updateRingSize()">
+        </select>
+      </div>
+      <canvas id="ring-canvas"></canvas>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
